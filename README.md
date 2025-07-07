@@ -79,13 +79,14 @@ A criação de um serviço HTTPS no CloudHub difere em alguns aspectos important
 ---
 
 ## Diferenças entre CloudHub e Anypoint Studio na Configuração de HTTPS
-| Aspecto | Anypoint Studio (Local) | CloudHub (Implantação na Nuvem) | 
-| Ambiente | Local, usado para desenvolvimento e testes | Nuvem, usado para produção e escalabilidade | 
-| Configuração de HTTPS | Manual via HTTP Listener + Keystore | Automática via domínio *.cloudhub.io com TLS gerenciado | 
-| Certificado SSL | Gerado e configurado pelo desenvolvedor (.jks) | Gerenciado pela MuleSoft (CloudHub usa certificados válidos) | 
-| Porta HTTPS | Definida pelo usuário (ex: 8443) | Padrão 443 (HTTPS) | 
-| Domínio de acesso | https://localhost:8443 | https://nome-app.cloudhub.io | 
-| Segurança adicional | Pode configurar mTLS manualmente | Suporte nativo a mTLS e IP whitelisting via Anypoint Security | 
+| Aspecto 				| Anypoint Studio (Local) 								| CloudHub (Implantação na Nuvem) 								| 
+| --------------------- | ----------------------------------------------------- | ------------------------------------------------------------- |
+| Ambiente 				| Local, usado para desenvolvimento e testes 			| Nuvem, usado para produção e escalabilidade 					| 
+| Configuração de HTTPS | Manual via HTTP Listener + Keystore 					| Automática via domínio *.cloudhub.io com TLS gerenciado 		| 
+| Certificado SSL 		| Gerado e configurado pelo desenvolvedor (.jks) 		| Gerenciado pela MuleSoft (CloudHub usa certificados válidos) 	| 
+| Porta HTTPS 			| Definida pelo usuário (ex: 8443) 						| Padrão 443 (HTTPS) 											| 
+| Domínio de acesso 	| https://localhost:8443 								| https://nome-app.cloudhub.io 									| 
+| Segurança adicional 	| Pode configurar mTLS manualmente 						| Suporte nativo a mTLS e IP whitelisting via Anypoint Security | 
 
 ---
 
